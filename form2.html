@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form2</title>
+</head>
+<body>
+    <form action="home.php" method="post">
+        <table align="center" BORDERCOLOR="LIGHTBLUE" border="8" CELLSPACING="15" > 
+            <tbody>
+            <tr>
+              <th colspan="2"><h3 style="color: red;"> BILLING ADDRESS </h3></th>
+              <TH colspan="2"><h3 style="color: red;"> PAYMENT </h3></TH>
+
+            </tr>
+            <TR></TR>
+            <TR>
+                <TD colspan="2">
+                    FULL NAME
+                </TD>
+                <TD colspan="2"> CARD ACCEPTED</TD>
+
+            </TR>
+            <TR>
+                <TD colspan="2"><INPUT type="text" placeholder="ENTER YOUR FULL NAME" NAME="NAME" required></TD>
+                <TD colspan="2"><img src="card.jpg" alt="not visible" width="200" height="40"></img></TD>
+            </TR>
+            <TR> </TR>
+            <TR>
+                <TD colspan="2"> EMAIL</TD>
+                <TD colspan="2"> NAME ON CARD</TD>
+            </TR>
+            <TR>
+                <TD colspan="2"><INPUT TYPE="email" placeholder="ENTER EMAIL ADDRESS" NAME="EMAIL" required></TD>
+                <TD colspan="2"><input type="text" placeholder="ENTER CARD NAME" name="CARDNAME" required></TD>
+            </TR>
+            <TR></TR>
+            <TR>
+                <TD colspan="2">ADDRESS</TD>
+                <TD colspan="2"> CREDIT CARD NUMBER:</TD>
+            </TR>
+            <TR>
+                <TD colspan="2"><INPUT type="text" placeholder="ENTER ADDRESS" NAME="ADDRESS" required></TD>
+                <TD colspan="2"><input type="number" placeholder="111 2222 3333 4444" required></TD>
+
+            </TR>
+            <TR></TR>
+            <TR>
+                <TD colspan="2"> CITY</TD>
+                <TD colspan="2"> EXP MONTH</TD>
+            </TR>
+            <TR>
+                <TD colspan="2"> <input type="text" placeholder="ENTER CITY" NAME="CITY" required></TD>
+                <TD colspan="2"> <input type="month" placeholder="CHOOSE MONTH" NAME="EXPMONTH" required></TD>
+            </TR>
+            <TR></TR>
+            <TR>
+                <TD>MONTH</TD>
+                <TD>ZIP CODE</TD>
+                <TD>EXP YEAR</TD>
+                <TD>CVV</TD>
+            </TR>
+            <TR>
+                <TD><input type="TEXT" placeholder="ENTER MONTH" NAME="MONTH" required></TD>
+                <TD><input type="number" placeholder="123 456" NAME="ZIPCODE" required maxlength="6"></TD>
+                <TD><input type="YEAR" placeholder="CHOOSE YEAR" NAME="EXPYEAR" required maxlength="4"></TD>
+                <TD><input type="number" placeholder="1234" NAME="CVV" required maxlength="4"></TD>
+            </TR>
+            <TR>
+                <TD colspan="4" align="center"><input style="background-color: green;" type="submit" VALUE="PROCEED TO CHECKOUT"></TD>
+            </TR>
+        </table>
+
+    </form>
+</body>
+</html>
