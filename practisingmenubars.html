@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menubar</title>
+
+    <style>
+        .cdiv1{
+            background-color: rgb(30, 134, 99);
+        }
+        .cdiv1 a{
+            text-decoration: none;
+            font-size: 22px;
+            color: white;
+            padding: 16px 24px;
+        }
+
+        .cdiv2{
+            background-color: rgb(30, 134, 99);
+            margin-top: 20px;
+        }
+        .cdiv2 a{
+            display: block; 
+            /*this line means that we are converting inline element into block element as in inline we cant set top and bottom padding--> */
+            text-decoration:none;
+            font-size: 22px;
+            color: white;
+            padding: 16px 24px;
+        }
+
+        .cdiv3{
+            background-color: rgb(30, 134, 99);
+            margin-top: 20px;
+            overflow: hidden;
+        }
+        .cdiv3 a{
+            display: block;
+             /* <!--this line means that we are converting inline element into block element as in inline we cant set top and bottom padding--> */
+            text-decoration: none;
+            font-size: 22px;
+            color: white;
+            padding: 16px 24px;
+            float: left;
+        }
+
+        .cdiv4{
+            background-color: rgb(30, 134, 99);
+            margin-top: 20px;
+            overflow: hidden;
+        }
+        .cdiv4 a{
+            display: block;
+             /* <!--this line means that we are converting inline element into block element as in inline we cant set top and bottom padding--> */
+            text-decoration: none;
+            font-size: 22px;
+            color: white;
+            padding: 16px 24px;
+            float: left;
+        }
+        #a1{
+            float: right;
+            /* can use padding too but float is easier */
+            margin-right: 20px;
+        }
+
+        #a2{
+            float: left;
+            margin-left: 350px;
+        }
+        .cdiv4 a:hover{
+            background-color: black;
+            cursor: pointer;
+            transform: scale(1.2);
+        }
+
+        .cdiv5{
+            background-color: rgb(30, 134, 99);
+            margin-top: 20px;
+            overflow: hidden;
+        }
+        .cdiv5 a{
+            display: block;
+             /* <!--this line means that we are converting inline element into block element as in inline we cant set top and bottom padding--> */
+            text-decoration: none;
+            font-size: 22px;
+            color: white;
+            padding: 16px 24px;
+            float: left;
+        }
+
+        .cdiv5 a:hover{
+            background-color: black;
+            cursor: pointer;
+            transform: rotate(350deg);
+            
+        }
+
+
+
+
+
+    </style>
+
+</head>
+<body>
+  <div class="cdiv1">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Service</a>
+    <a href="#">Contact us</a>
+    <a href="#">Download CV</a>
+
+
+
+  </div>  
+   <div class="cdiv2">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Service</a>
+    <a href="#">Contact us</a>
+    <a href="#">Download CV</a>
+   </div>
+
+   <div class="cdiv3">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Service</a>
+    <a href="#">Contact us</a>
+    <a href="#">Download CV</a>
+   </div>
+
+   <div class="cdiv4">
+    <a href="#">Home</a>
+    <a href="#" id="a2">About</a>
+    <a href="#">Service</a>
+    <a href="#">Contact us</a>
+    <a href="#" id="a1">Download CV</a>
+   </div>
+
+   <div class="cdiv5">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Service</a>
+    <a href="#">Contact us</a>
+    <a href="#" id="a1">Download CV</a>
+   </div>
+
+  
+
+
+</body>
+</html>
